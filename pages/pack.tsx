@@ -11,7 +11,7 @@ const Pack: NextPage = () => {
   return (
     <div className="bg-[#161616] min-h-screen overflow-hidden">
       <Head>
-        <title>Create Next App</title>
+        <title>ResourcePacksList</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
