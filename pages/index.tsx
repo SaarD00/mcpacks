@@ -9,7 +9,7 @@ const Home: NextPage = () => {
   return (
     <div className="bg-[#282d39]  h-screen">
       <Head>
-        <title>Create Next App</title>
+        <title>Packs</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
