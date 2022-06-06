@@ -36,7 +36,7 @@ const Pack1 = [
     Price: '₹0',
     image:
       'https://cdn.discordapp.com/attachments/980432728178692137/980807436850061403/unknown.png',
-    creator: 'luna',
+    creator: 'Damify',
   },
 ]
 
