@@ -11,7 +11,7 @@ function Header() {
       initial={{ y: -250 }}
       animate={{ y: 0, transition: { duration: 1, delay: 0.5 }, zIndex: 5 }}
     >
-      <div className="bg-[#0000]/50 font-product brightness-100 border-b  flex justify-between border-white/10 shadow-sm z-[100] sticky top-0 p-5 text-white">
+      <div className="bg-[#0000]/50 font-product gap-52 lg:gap-0 brightness-100 border-b  flex justify-between border-white/10 shadow-sm z-[100] sticky top-0 p-5 text-white">
         <div className="flex  gap-20">
           <div onClick={() => router.push('/')} className="flex flex-shrink-0 ">
             <img
@@ -24,7 +24,7 @@ function Header() {
               <p className="">PACKS</p>
             </Link>
           </div>
-          <div className="border-b-2 px-2 rounded-sm hover:scale-125 transition-all duration-200 border-white/0 hover:border-white">
+          <div className="border-b-2 px-2 hidden lg:inline rounded-sm hover:scale-125 transition-all duration-200 border-white/0 hover:border-white">
             <p>CLIENTS</p>
           </div>
         </div>

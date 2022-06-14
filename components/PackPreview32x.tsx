@@ -77,9 +77,9 @@ const PackPreview = () => {
           initial={{ x: -3000 }}
           animate={{ x: 0, transition: { delay: 1.9, duration: 0.4 } }}
         >
-          <div className="flex gap-10 mt-10 border-2 border-black border-t p-5 rounded-lg border-t-white/10 shadow-2xl ">
+          <div className="col-auto md:inline-flex gap-10 mt-10 border-2 border-black border-t p-5 rounded-lg border-t-white/10 shadow-2xl ">
             {packs.map((pack, index) => (
-              <div className="rounded-lg bg flex flex-col bg-[#171717] justify-center p-10 border-2 border-t border-t-black/40 border-black shadow-2xl ">
+              <div className="rounded-lg bg flex flex-col bg-[#171717] object-contain justify-center md:p-2 p-10 border-2 border-t border-t-black/40 border-black shadow-2xl ">
                 <img className="h-52 rounded-lg  " src={pack.image} />
                 <div className="flex justify-between">
                   <p className="text-lg font-semibold mt-5">{pack.name}</p>
@@ -112,7 +112,7 @@ const PackPreview = () => {
           initial={{ x: -3000 }}
           animate={{ x: 0, transition: { delay: 2.7, duration: 0.4 } }}
         >
-          <div className="flex gap-10 mt-10 border-2 border-black border-t p-5 rounded-lg border-t-white/10 shadow-2xl ">
+          <div className="col md:inline-flex gap-10 mt-10 border-2 border-black border-t p-5 rounded-lg border-t-white/10 shadow-2xl ">
             {packs2.map((pack, index) => (
               <div className="rounded-lg bg flex flex-col bg-[#171717] justify-center p-10 border-2 border-t border-t-black/40 border-black shadow-2xl ">
                 <img className="h-52 rounded-lg  " src={pack.image} />

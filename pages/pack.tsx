@@ -20,15 +20,15 @@ const Pack: NextPage = () => {
         initial={{ x: 3000 }}
         animate={{ x: 0, transition: { delay: 2, duration: 0.5 } }}
       >
-        <div className="text-white absolute   z-50 font-product ">
-          <div className="flex-col object-contain justify-center scale-90 gap-20 bg-[#000]/70 rounded-3xl p-20 items-center">
+        <div className="text-white absolute bg-[#161616] lg:bg-transparent min-h-screen overflow-hidden  z-50 font-product ">
+          <div className="flex-col flex-shrink-0 object-contain justify-center scale-90 gap-20 bg-[#000]/70 rounded-3xl p-20 items-center">
             <div className="flex justify-center items-center">
-              <p className="text-5xl font-semibold">Select Your Pack</p>
+              <p className="text-5xl font-semibold ">Select Your Pack</p>
             </div>
-            <div className="flex object-contain justify-center   gap-20   p-20 items-center">
+            <div className="col-auto lg:inline-flex  shrink-0 object-contain justify-center   gap-20   p-20 items-center">
               <div
                 onClick={() => router.push('/packs/16x')}
-                className="flex hover:scale-110  transition-all duration-150 ease-in-out cursor-pointer  flex-col items-center space-y-10"
+                className="flex  hover:scale-110    transition-all duration-150 ease-in-out cursor-pointer  flex-col items-center space-y-10"
               >
                 <img
                   className="rounded-2xl"
